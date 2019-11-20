@@ -4,12 +4,9 @@ color: #403f48;
 text-align: center;
 }
 
-a:link {
+a {
   color: #596c68;
-}
-
-a:visited {
-  color: #483d3c;
+  text-decoration: none;
 }
 
 hr {
