@@ -1,38 +1,52 @@
+/* HTML tag selectors *********************************************************/
 body {
-  background-color: #F6F3EE;
+  background-color: #e8eaa1;
   text-align: center;
-  color: #403f48;
+  color: #373331;
+  font-family: 'Rokkitt', serif;
 }
 
 a {
   text-decoration: none;
-  color: #403f48;
+  color: #e8eaa1;
 }
 
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #95a792;
+  border-color: #80ac7b;
   border-width: 6px;
   width: 15%;
 }
 
 h1 {
+  font-family: 'VT323', monospace;
+  font-size: 400%;
   margin-top: 100px;
 }
 
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Classe selectors ***********************************************************/
 .top-container {
-  background-color: #95a792;
+  background-color: #80ac7b;
   padding-top: 100px;
   position: relative;
 }
 
 .middle-container {
-  background-color: #7CB74C;
+  background-color: #605a56;
 }
 
 .bottom-container {
-  background-color: #745739;
+  background-color: #373331;
+  color: #e8eaa1;
 }
 
 .topCloud {
@@ -45,4 +59,16 @@ h1 {
   position: absolute;
   bottom: 300px;
   left: 300px;
+}
+/* ID selectors ***************************************************************/
+#lastParagraphMiddle {
+  margin-bottom: 0;
+}
+
+#contact_titel {
+  margin-top: 0;
+}
+
+#lastHeadingOnPage {
+  margin-bottom: 0;
 }
