@@ -4,11 +4,12 @@ body {
   text-align: center;
   color: #373331;
   font-family: 'Rokkitt', serif;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
-  color: #e8eaa1;
+  color: #80ac7b;
 }
 
 hr {
@@ -16,13 +17,13 @@ hr {
   border-top-style: dotted;
   border-color: #80ac7b;
   border-width: 6px;
-  width: 15%;
+  width: 33%;
 }
 
 h1 {
   font-family: 'VT323', monospace;
   font-size: 5.5rem;
-  margin-top: 100px;
+  margin: 100px auto 0 auto;
 }
 
 h2 {
@@ -38,25 +39,23 @@ h4 {
   margin-top: 20px;
 }
 
-span {
-  font-size: 0.75rem;
-  font-family: 'Press Start 2P', cursive;
-}
-
 /* Classe selectors ***********************************************************/
 .top-container {
-  background-color: #80ac7b;
+  background-color: #80AC7B;
   padding-top: 100px;
+  padding: 50px;
   position: relative;
 }
 
 .middle-container {
   background-color: #605a56;
+  padding: 50px;
 }
 
 .bottom-container {
   background-color: #373331;
-  color: #e8eaa1;
+  color: #80AC7B;
+  padding: 50px;
 }
 
 .topCloud {
@@ -71,8 +70,59 @@ span {
   left: 300px;
 }
 
-.skillIcons {
-  width: 100px;
+.binaryIcon {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bugIcon {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skillRow {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bugSkillDescription {
+  margin-bottom: 0;
+}
+
+.copyright {
+  margin-bottom: 0;
+  color: #605a56;
+}
+
+.btn {
+  background-color: #80AC7B;
+  color: #373331;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 7px;
+  padding: 0 30px 0 30px;
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  width: 160px;
+  margin: auto auto 10px auto;
+}
+
+.footer-link {
+  margin-top: 20px;
+}
+
+.intro {
+  width: 45%;
+  margin: auto auto 25px auto;
+}
+
+.worldMap {
+  width: 65%;
+  margin: auto;
 }
 
 /* ID selectors ***************************************************************/
@@ -80,14 +130,6 @@ span {
   font-size: 1.25rem;
 }
 
-#lastParagraphMiddle {
-  margin-bottom: 0;
-}
-
 #contact_titel {
   margin-top: 0;
-}
-
-#lastPartOnPage {
-  margin-bottom: 0;
 }
