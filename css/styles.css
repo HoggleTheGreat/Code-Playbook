@@ -16,3 +16,7 @@ hr {
   border-width: 6px;
   width: 15%;
 }
+
+h1 {
+  display: inline-block;
+}
