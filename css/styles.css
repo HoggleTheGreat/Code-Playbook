@@ -58,18 +58,6 @@ h4 {
   padding: 50px;
 }
 
-.topCloud {
-  position: absolute;
-  right: 300px;
-  top: 60px;
-}
-
-.bottomCloud {
-  position: absolute;
-  bottom: 300px;
-  left: 300px;
-}
-
 .binaryIcon {
   width: 25%;
   float: left;
